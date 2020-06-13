@@ -1,0 +1,386 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+}
+/*Style For Body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* This will change the color of all the icons */
+i {
+  color: black;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.smallLogo {
+  width: 32px;
+  height: 32px;
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+}
+aside {
+  flex-basis: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1.6;
+  padding: 14px;
+}
+.mainContent {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1.6;
+  padding-left: 31px;
+  padding-top: 5px;
+  margin-left: 2px;
+}
+/* Styling For My Image */
+.myImage {
+  height: auto;
+  width: 100%;
+}
+.myImage img {
+  width: 100%;
+  height: auto;
+}
+.progress {
+  color: white;
+  height: 20px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #d8d8d8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 6px;
+}
+
+.progress .progressDone75 {
+  display: flex;
+  height: 100%;
+  width: 225px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone65 {
+  display: flex;
+  height: 100%;
+  width: 195px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone80 {
+  display: flex;
+  height: 100%;
+  width: 240px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone70 {
+  display: flex;
+  height: 100%;
+  width: 210px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone85 {
+  display: flex;
+  height: 100%;
+  width: 255px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone76 {
+  display: flex;
+  height: 100%;
+  width: 228px;
+  background-color: #2d767f;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+div.aboutMe h3 {
+  text-align: center;
+}
+.workExperience b {
+  display: block;
+}
+.socialMedia ul {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.socialMedia ul li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+
+.socialMedia ul li .fa {
+  font-size: 25px;
+  line-height: 45px;
+  transition: 0.6s;
+  color: black;
+}
+
+.socialMedia ul li .fa:hover {
+  color: white;
+}
+
+.socialMedia ul li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 4px rgb(0, 0, 0, 0.5);
+  transition: 0.6s;
+  text-align: center;
+}
+
+.socialMedia ul li a:hover {
+  transform: translate(0, -5px);
+}
+
+.socialMedia ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.socialMedia ul li:nth-child(2) a:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+#downloadCV {
+  font-size: 18px;
+  background-color: #2d767f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 18px;
+  transition: 0.2s ease;
+  margin-top: 15px;
+  opacity: 0.8;
+  outline: none;
+}
+.button {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 7px;
+}
+#downloadCV:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1;
+}
+#contactMail {
+  color: black;
+  text-decoration: none;
+}
+.workExperience div.company,
+.summaryOfPersonalProfile ul,
+.education ul.first,
+.objective ul,
+.dutiesAndResponsibilities ul,
+.academicProjects ul,
+.extraCurriculumActivities ul {
+  margin-left: 50px;
+}
+.education ul.first ul.second {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 1090px) {
+  button.dark {
+    left: 15px;
+    top: 130px;
+  }
+}
+.bottomContainer {
+  background-color: #2d767f;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+
+  position: relative;
+}
+#developedByPramesh {
+  font-family: "Metal Mania", cursive;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 19px;
+
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+p.copyright {
+  padding-top: 15px;
+  font-size: 19px;
+}
+button {
+  outline: none;
+}
+a {
+  outline: none;
+}
+@media screen and (max-width: 830px) {
+  .socialMedia ul li a {
+    width: 30px;
+    height: 30px;
+  }
+  .socialMedia ul li .fa {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  p.copyright {
+    font-size: 10px;
+  }
+  #developedByPramesh {
+    font-size: 15px;
+  }
+  .mainContent {
+    padding-left: 10px;
+  }
+  .progress {
+    width: 240px;
+    /* We have to do calculation for each individual */
+  }
+  .progress .progressDone75 {
+    width: 180px;
+  }
+  .progress .progressDone65 {
+    width: 156px;
+  }
+  .progress .progressDone80 {
+    width: 192px;
+  }
+  .progress .progressDone70 {
+    width: 168px;
+  }
+  .progress .progressDone85 {
+    width: 204px;
+  }
+  .progress .progressDone76 {
+    width: 182px;
+  }
+}
+@media screen and (max-width: 791px) {
+  h2 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .skills,
+  .languageKnown {
+    margin-top: 10px;
+  }
+
+  .progress {
+    width: 180px;
+  }
+  .progress .progressDone75 {
+    width: 135px;
+  }
+  .progress .progressDone65 {
+    width: 117px;
+  }
+  .progress .progressDone80 {
+    width: 144px;
+  }
+  .progress .progressDone70 {
+    width: 126px;
+  }
+  .progress .progressDone85 {
+    width: 153px;
+  }
+  .progress .progressDone76 {
+    width: 136px;
+  }
+}
+@media screen and (max-width: 604px) {
+  .container {
+    flex-direction: column;
+  }
+  aside {
+    text-align: center;
+  }
+  .progress {
+    width: 300px;
+    margin: 4px auto;
+  }
+  .progress .progressDone75 {
+    width: 225px;
+  }
+  .progress .progressDone65 {
+    width: 195px;
+  }
+  .progress .progressDone80 {
+    width: 240px;
+  }
+  .progress .progressDone70 {
+    width: 210px;
+  }
+  .progress .progressDone85 {
+    width: 255px;
+  }
+  .progress .progressDone76 {
+    width: 228px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .mainContent {
+    margin-top: 4px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .socialMedia {
+    margin-bottom: 22px;
+  }
+  #developedByPramesh {
+    bottom: 10px;
+  }
+  .bottomContainer {
+    height: 120px;
+  }
+}
